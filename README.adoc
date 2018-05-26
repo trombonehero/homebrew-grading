@@ -1,0 +1,2 @@
+This is a https://brew.sh[Homebrew] tap containing software that I use for
+evaluating student submissions of C- and C++-language source code.
