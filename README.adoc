@@ -1,2 +1,14 @@
 This is a https://brew.sh[Homebrew] tap containing software that I use for
 evaluating student submissions of C- and C++-language source code.
+You can install http://trombonehero.github.io/libgrading[libgrading] by running either:
+
+```terminal
+$ brew install trombonehero/homebrew-grading/libgrading
+```
+
+or
+
+```terminal
+$ brew tap trombonehero/homebrew-grading
+$ brew install libgrading
+```
