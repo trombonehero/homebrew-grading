@@ -1,8 +1,8 @@
 class Libdistance < Formula
   desc "compute the distance between two pieces of data"
   homepage "https://monkey.org/~jose/software/libdistance/"
-  url "http://monkey.org/~jose/software/libdistance/libdistance-0.2.3.tar.gz"
-  sha256 "0565fda09ab9130c404fc4cb23d86bd7c775f0b326c1c9fbb6951361e59c35ad"
+  url "https://github.com/trombonehero/libdistance/archive/v0.2.3.tar.gz"
+  sha256 "5f488394adcc72a490097ee6b87e4e0f5dbedd2e8d54902a4a4a8b970889756c"
 
   def install
     system "make"
