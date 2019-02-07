@@ -1,8 +1,8 @@
 class Libgrading < Formula
   desc "A library for grading C- and C++-language assignments"
   homepage "https://trombonehero.github.io/libgrading"
-  url "https://github.com/trombonehero/libgrading/archive/v0.1.2.tar.gz"
-  sha256 "1d0e11cf1adef7bc40df08ef1f984f4f8dcc2172d5bd1bae7a48e0871b546fa7"
+  url "https://github.com/trombonehero/libgrading/archive/v0.1.6.tar.gz"
+  sha256 "718505a49a1a1a0040ce9de4b40fa3c4b6e5975cb42a056708ea52ef89ac3c64"
 
   depends_on "cmake" => :build
   depends_on "libdistance" => :build
