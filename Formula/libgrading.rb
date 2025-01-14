@@ -8,8 +8,8 @@ class Libgrading < Formula
   depends_on "libdistance" => :build
 
   def install
-    system "cmake", ".", *std_cmake_args
-    system "make", "install"
+    system "cmake", "-B", "build", ".", *std_cmake_args
+    system "make", "-C", "build", "install"
   end
 
   test do
